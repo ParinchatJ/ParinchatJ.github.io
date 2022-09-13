@@ -28,6 +28,7 @@ function Allpage() {
 
   return (
     <div className="big-container">
+      <img className="bg" src="./IMG_4935.PNG" alt="" />
       <ScrollContainer>
       <div className="home-container">
               <div className="home-head">
