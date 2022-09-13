@@ -1,0 +1,172 @@
+.big-container {
+  box-sizing: border-box;
+}
+
+/* home page  */
+
+.home-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+  background-image: url("IMG_4935.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
+.home-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+}
+
+.home {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 75px;
+  background-color: white;
+  width: 100vw;
+}
+
+.home-content {
+  font-family: "PT Mono", monospace;
+}
+
+/* about page */
+
+.about-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-container img {
+    width: auto;
+    height: 17rem;
+    margin: 30px 0 20px 0;
+}
+
+.about-container h1 {
+    font-family: "PT Mono", monospace;
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.about-container .textAbout {
+    font-family: "PT Mono", monospace;
+    width: 60%;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+}
+
+/* Education */
+
+.edu-container {
+    font-family: "PT Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.edu-container h1 {
+    font-size: 3.5rem;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.edu-container .edu-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.edu-container .edu-content .card-edu {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-container .edu-content .card-edu img {
+    width: auto;
+    height: 20rem;
+}
+
+.edu-container .edu-content .card-edu p {
+    line-height: 1.5rem;
+}
+
+/* skill page */
+
+.container-skills h1 {
+    font-size: 2.5rem;
+    font-family: "PT Mono", monospace;
+    margin-top: 50px;
+}
+
+.skill h1 {
+    font-size: 2rem;
+    font-family: "PT Mono", monospace;
+}
+
+.skill {
+    height: 5rem;
+}
+
+/* project page */
+
+.container-project h1 {
+    font-size: 2.5rem;
+    font-family: "PT Mono", monospace;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container-project .card-projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* contact page */
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-contact img {
+    margin-top: 80px;
+    width: 17rem;
+    height: auto;
+}
+
+.container-contact h1 {
+    font-size: 2.5rem;
+    font-family: "PT Mono", monospace;
+}
+
+.container-contact p {
+    font-size: 1rem;
+    font-family: "PT Mono", monospace;
+    line-height: 1.5rem;
+    margin-bottom: 40px;
+}

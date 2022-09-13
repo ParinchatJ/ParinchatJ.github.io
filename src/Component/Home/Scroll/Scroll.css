@@ -1,0 +1,26 @@
+.container-scroll h3 {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: white;
+  animation-name: scroll-shaek;
+  animation-duration: 2s;
+}
+
+@keyframes scroll-shaek {
+  0% {
+    transform: translateY(-50%);
+  }
+  25% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  75% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}

@@ -1,0 +1,103 @@
+.container-card {
+    border: 2px solid black;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.container-card:hover {
+    animation-name: slidePro;
+    animation-duration: 0.2s;
+}
+
+@keyframes slidePro {
+    0%{
+      transform: translateX(3%);
+    }
+
+    50%{
+      transform: translateX(-3%);
+    }
+
+    100%{
+      transform: translateX(0%);
+    }
+  }
+
+.container-card .upper-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.container-card .upper-card .content-card {
+    font-family: 'PT Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    height: 45%;
+}
+
+.container-card .upper-card .content-card h1 {
+    font-size: 1rem;
+}
+
+.container-card .upper-card .content-card p {
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    line-height: 16px;
+}
+
+.container-card .upper-card .content-card .skill-card {
+    color: #E1563D;
+    font-weight: 1200;
+}
+
+
+.container-card .lower-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border-top: 2px solid black;
+}
+
+/* .container-card .lower-card button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-family: 'PT Mono', monospace;
+} */
+
+.container-card .lower-card a {
+    text-align: center;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.container-card .lower-card a button {
+    font-family: 'PT Mono', monospace;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.container-card .lower-card .gh {
+    background-color: #D4BE23;
+}
+
+.container-card .lower-card .gh a, .container-card .lower-card .dm a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-card .lower-card .dm {
+    background-color: #3369A7;
+}
