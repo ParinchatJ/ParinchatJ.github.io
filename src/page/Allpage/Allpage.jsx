@@ -6,16 +6,11 @@ import {
   batch,
   Fade,
   FadeIn,
-  FadeOut,
   Move,
-  MoveIn,
   MoveOut,
   Sticky,
   StickyIn,
-  StickyOut,
-  Zoom,
   ZoomIn,
-  ZoomOut,
 } from "react-scroll-motion";
 import NameInHome from "../../Component/Home/NameInHome/NameInHome";
 import ButtonResume from "../../Component/Home/ButtonResume/ButtonResume";
