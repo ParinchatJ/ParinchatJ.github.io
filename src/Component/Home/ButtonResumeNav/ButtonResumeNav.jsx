@@ -1,19 +1,19 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 import "./ButtonResumeNav.css";
 
 function ButtonResumeNav() {
-
-  const [ colorNav, setColorNav ] = useState(false)
+  //change color when scroll
+  const [colorNav, setColorNav] = useState(false);
   const changeColor = () => {
     if (window.scrollY >= 90) {
-      setColorNav(true)
+      setColorNav(true);
     } else {
-      setColorNav(false)
+      setColorNav(false);
     }
-  }
+  };
 
-  window.addEventListener('scroll', changeColor)
+  window.addEventListener("scroll", changeColor);
 
   return (
     <div className="button-container">
@@ -23,7 +23,11 @@ function ButtonResumeNav() {
         target="_blank"
         rel="noreferrer"
       >
-        <button className={colorNav ? 'btHome-nav btHome-nav-scroll' : 'btHome-nav'}>RESUME</button>
+        <button
+          className={colorNav ? "btHome-nav btHome-nav-scroll" : "btHome-nav"}
+        >
+          RESUME
+        </button>
       </a>
     </div>
   );

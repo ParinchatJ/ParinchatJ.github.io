@@ -1,45 +1,44 @@
 .navleft {
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    justify-content: flex-start;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: flex-start;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .navleft::after {
-    content: "";
-    border: 1px solid black;
-    display: block;
-    width: 0;
-    height: 90px;
-    margin: 0px auto;
-    color: black;
-    position: relative;
-    
+  content: "";
+  border: 1px solid black;
+  display: block;
+  width: 0;
+  height: 90px;
+  margin: 0px auto;
+  color: black;
+  position: relative;
 }
 
 .navleft li .icon {
-    height: auto;
-    width: 25px;
-    margin: 10px 0 10px 4px;
+  height: auto;
+  width: 25px;
+  margin: 10px 0 10px 4px;
 }
 
 .icon-linkedin {
-    height: auto;
-    width: 30px;
-    margin: 10px 0 10px 2px;
+  height: auto;
+  width: 30px;
+  margin: 10px 0 10px 2px;
 }
 
 .navleft .lastli {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
- .github-icon {
-    height: auto;
-    width: 35px;
-    margin-bottom: 5px;
+.github-icon {
+  height: auto;
+  width: 35px;
+  margin-bottom: 5px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import './NavbarContact.css'
+import "./NavbarContact.css";
 
 export default function NavbarContact() {
   return (
@@ -13,7 +13,11 @@ export default function NavbarContact() {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="github-icon" src='./icons8-github-128.png' alt="GitHub" />
+            <img
+              className="github-icon"
+              src="./icons8-github-128.png"
+              alt="GitHub"
+            />
           </a>
         </li>
         <li>
@@ -23,7 +27,11 @@ export default function NavbarContact() {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="icon-linkedin" src='./icons8-linkedin-100.png' alt="LinkedIn" />
+            <img
+              className="icon-linkedin"
+              src="./icons8-linkedin-100.png"
+              alt="LinkedIn"
+            />
           </a>
         </li>
         <li>
@@ -33,7 +41,7 @@ export default function NavbarContact() {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="icon" src='./icons8-gmail-100.png' alt="Mail" />
+            <img className="icon" src="./icons8-gmail-100.png" alt="Mail" />
           </a>
         </li>
       </ul>

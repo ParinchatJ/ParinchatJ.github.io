@@ -20,6 +20,7 @@ import Bottom from "../../Component/Contact1/Bottom/Bottom";
 import Card1 from "../../Component/Projects/Card1/Card1";
 import Card2 from "../../Component/Projects/Card2/Card2";
 import Card3 from "../../Component/Projects/Card3/Card3";
+
 import "./Allpage.css";
 
 function Allpage() {
@@ -30,23 +31,18 @@ function Allpage() {
     <div className="big-container">
       <img className="bg" src="./IMG_4935.PNG" alt="" />
       <ScrollContainer>
-      <div className="home-container">
-              <div className="home-head">
-                <div className="home">
-                  <h1 className="home-content">Hi, I'am</h1>
-                  <NameInHome />
-                </div>
-                <ButtonResume />
-              </div>
-              <div className="scroll">
-                <Scroll />
-              </div>
+        <div className="home-container">
+          <div className="home-head">
+            <div className="home">
+              <h1 className="home-content">Hi, I'am</h1>
+              <NameInHome />
             </div>
-        {/* <ScrollPage>
-          <Animator animation={ZoomInScrollOut}>
-          
-          </Animator>
-        </ScrollPage> */}
+            <ButtonResume />
+          </div>
+          <div className="scroll">
+            <Scroll />
+          </div>
+        </div>
         <ScrollPage Page={1}>
           <Animator animation={FadeUp}>
             <div className="about-container">
@@ -185,10 +181,10 @@ function Allpage() {
               <img src="./IMG_4926.PNG" alt="" />
               <h1>Get In Touch</h1>
               <p>
-                &nbsp; &nbsp; &nbsp; &nbsp;I’m currently looking for new opportunities. If you are
-                interested in me, have some questions, or just want to say hi.
-                Don't hesitate to talk with me. I will reply as soon as
-                possible.
+                &nbsp; &nbsp; &nbsp; &nbsp;I’m currently looking for new
+                opportunities. If you are interested in me, have some questions,
+                or just want to say hi. Don't hesitate to talk with me. I will
+                reply as soon as possible.
               </p>
               <ButtonResume />
             </div>

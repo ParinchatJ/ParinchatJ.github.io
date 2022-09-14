@@ -1,6 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import './NameInHome.css'
+
+import "./NameInHome.css";
 
 function NameInHome() {
   return (
@@ -17,9 +18,9 @@ function NameInHome() {
           "Cat Lover🐈",
           1000,
         ]}
-        speed={50} 
-        style={{ fontSize: "3em", fontFamily: 'PT Mono', fontWeight: 'bold' }}
-        wrapper="span" 
+        speed={50}
+        style={{ fontSize: "3em", fontFamily: "PT Mono", fontWeight: "bold" }}
+        wrapper="span"
         repeat={Infinity}
       />
     </div>
