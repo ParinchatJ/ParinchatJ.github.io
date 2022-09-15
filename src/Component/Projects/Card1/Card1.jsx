@@ -3,17 +3,12 @@ import React from "react";
 import "./Card1.css";
 
 function Card1() {
-  const sizeOfPicPro = {
-    height: "115px",
-    width: "100%",
-  };
 
   return (
     <div className="container-card">
       <div className="upper-card">
         <img
           src="./Screen Shot 2565-09-02 at 00.45.08.png"
-          style={sizeOfPicPro}
           alt=""
         />
         <div className="content-card">

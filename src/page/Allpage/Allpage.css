@@ -184,7 +184,7 @@
   margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
   /* home */
   .home-content {
     font-size: 1rem;
@@ -254,8 +254,8 @@
 
   /* project */
   .container-project h1 {
-    font-size: 1.7rem;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 40px;
     margin-top: 200px;
   }
 
@@ -267,7 +267,7 @@
 
   /* contact */
   .container-contact img {
-    width: 7rem;
+    width: 10rem;
   }
 
   .container-contact h1 {
@@ -275,13 +275,14 @@
     justify-content: center;
     width: 10%;
     font-size: 2rem;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     margin-top: 70px;
     line-height: 3.5rem;
   }
 
   .container-contact p {
-    display: none;
+    margin-bottom: 90px;
+    width: 100%;
   }
 }
 
@@ -298,5 +299,18 @@
 
   .skill-img {
     height: 2rem;
+  }
+
+  /* project */
+  .container-project h1 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    margin-top: 200px;
+  }
+
+  .container-project .card-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
