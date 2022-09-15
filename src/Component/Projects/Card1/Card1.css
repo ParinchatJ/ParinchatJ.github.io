@@ -141,3 +141,9 @@
     padding: 3px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .container-card {
+    margin-bottom: 10px;
+  }
+}
