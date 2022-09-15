@@ -22,7 +22,9 @@ function Navbar() {
         <img src="./IMG_4937.PNG" alt="" />
         <h2>PoJ</h2>
       </div>
-      <ButtonResumeNav />
+      <div className="resume">
+        <ButtonResumeNav />
+      </div>
     </div>
   );
 }

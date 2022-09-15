@@ -42,3 +42,9 @@
   width: 35px;
   margin-bottom: 5px;
 }
+
+@media only screen and (max-width: 768px) {
+  .navleft {
+    display: none;
+  }
+}

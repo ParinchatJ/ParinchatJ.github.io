@@ -94,3 +94,45 @@
 .container-card .lower-card .dm {
   background-color: #3369a7;
 }
+
+@media only screen and (max-width: 768px) {
+  .container-card .upper-card .content-card .desc-project {
+    display: none;
+  }
+
+  .container-card {
+    height: 13rem;
+    width: 14rem;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .container-card .upper-card {
+    height: 5rem;
+  }
+
+  .container-card .upper-card .content-card .skill-card {
+    margin-bottom: 0;
+  }
+
+  .container-card .upper-card .content-card h1 {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .container-card .upper-card .content-card p {
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    line-height: 16px;
+  }
+
+  .container-card .lower-card {
+    height: 1.5rem;
+  }
+
+  .container-card .lower-card a button {
+    text-align: center;
+    padding: 3px;
+  }
+}

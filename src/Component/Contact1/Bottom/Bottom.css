@@ -17,6 +17,12 @@
   z-index: 3;
 }
 
+@media only screen and (max-width: 768px) {
+  .container-bottom {
+    margin: 0;
+  }
+}
+
 .container-bottom .bottomtext a {
   text-decoration: none;
 }

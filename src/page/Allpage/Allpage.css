@@ -140,8 +140,8 @@
   font-family: "PT Mono", monospace;
 }
 
-.skill {
-  height: 5rem;
+.skill-img {
+  height: 2.5rem;
 }
 
 /* project page */
@@ -182,4 +182,121 @@
   font-family: "PT Mono", monospace;
   line-height: 1.5rem;
   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* home */
+  .home-content {
+    font-size: 1rem;
+  }
+
+  /* about */
+  .about-container img {
+    width: auto;
+    height: 10rem;
+    padding-top: 100px;
+  }
+
+  .about-container h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .about-container .textAbout {
+    width: 70%;
+    font-size: 0.7rem;
+    line-height: 2.3rem;
+  }
+
+  /* education */
+  .edu-container h1 {
+    font-size: 2rem;
+    margin-top: 120px;
+    margin-bottom: 0;
+  }
+
+  .edu-container .edu-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edu-container .edu-content .card-edu img {
+    width: auto;
+    height: 7rem;
+    margin-top: 10px;
+  }
+
+  .edu-container .edu-content .card-edu h2 {
+    font-size: 1rem;
+    background-color: white;
+    padding: 5px;
+    line-height: 1.3rem;
+  }
+
+  .edu-container .edu-content .card-edu p {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+
+  /* skill */
+  .container-skills h1 {
+    font-size: 1.7rem;
+    margin-top: 80px;
+  }
+
+  .skill h1 {
+    font-size: 1rem;
+  }
+
+  .skill-img {
+    height: 2rem;
+  }
+
+  /* project */
+  .container-project h1 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    margin-top: 200px;
+  }
+
+  .container-project .card-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* contact */
+  .container-contact img {
+    width: 7rem;
+  }
+
+  .container-contact h1 {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    font-size: 2rem;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    line-height: 3.5rem;
+  }
+
+  .container-contact p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* skill */
+  .container-skills h1 {
+    font-size: 1.7rem;
+    margin-top: 80px;
+  }
+
+  .skill h1 {
+    font-size: 1rem;
+  }
+
+  .skill-img {
+    height: 2rem;
+  }
 }

@@ -14,7 +14,10 @@ function Card3() {
         <img src="./headcss.png" style={sizeOfPicPro} alt="" />
         <div className="content-card">
           <h1>Head-animation-CSS 🐶</h1>
-          <p> Make the topic more interesting by using only CSS.</p>
+          <p className="desc-project">
+            {" "}
+            Make the topic more interesting by using only CSS.
+          </p>
           <p className="skill-card">only CSS</p>
         </div>
       </div>

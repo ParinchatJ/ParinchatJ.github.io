@@ -18,7 +18,7 @@ function Card2() {
         />
         <div className="content-card">
           <h1>JAMMMING 🎤</h1>
-          <p>
+          <p className="desc-project">
             A React web application that using API Spotify allows users to
             search songs from the Spotify library and create the playlist that
             you wish.

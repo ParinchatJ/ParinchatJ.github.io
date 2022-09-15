@@ -4,7 +4,7 @@ import "./Card1.css";
 
 function Card1() {
   const sizeOfPicPro = {
-    height: "auto",
+    height: "115px",
     width: "100%",
   };
 
@@ -18,7 +18,7 @@ function Card1() {
         />
         <div className="content-card">
           <h1>Extracts website ⌚</h1>
-          <p>
+          <p className="desc-project">
             This website creating by MERN stack, it can record their workouts in
             a diary format. Having a Setgoal function to track weekly workouts
             through graphs.

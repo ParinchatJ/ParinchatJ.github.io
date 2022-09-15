@@ -2,3 +2,9 @@
   margin-bottom: 20px;
   z-index: 1;
 }
+
+@media only screen and (max-width: 768px) {
+  .name-in-home {
+    font-size: 0.5rem;
+  }
+}

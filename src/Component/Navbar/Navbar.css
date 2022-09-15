@@ -45,3 +45,26 @@
 .container-nav .nav-mid h2 {
   font-size: 2.5rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav-mid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .resume {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nav-mid {
+    display: flex;
+    justify-content: center;
+  }
+
+  .resume {
+    display: none;
+  }
+}

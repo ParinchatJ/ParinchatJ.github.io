@@ -43,7 +43,7 @@ function Allpage() {
             <Scroll />
           </div>
         </div>
-        <ScrollPage Page={1}>
+        <ScrollPage>
           <Animator animation={FadeUp}>
             <div className="about-container">
               <img src="./IMG_4936.PNG" alt="" />
@@ -94,22 +94,34 @@ function Allpage() {
             </div>
           </Animator>
           <Animator animation={batch(Sticky(15, 40), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./icons8-html-5-96.png" alt="" />
+            <img className="skill-img" src="./icons8-html-5-96.png" alt="" />
           </Animator>
           <Animator animation={batch(Sticky(25, 40), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./icons8-css3-96.png" alt="" />
+            <img className="skill-img" src="./icons8-css3-96.png" alt="" />
           </Animator>
           <Animator animation={batch(Sticky(35, 40), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./icons8-javascript-144.png" alt="" />
+            <img
+              className="skill-img"
+              src="./icons8-javascript-144.png"
+              alt=""
+            />
           </Animator>
           <Animator animation={batch(Sticky(15, 55), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./icons8-react-native-144.png" alt="" />
+            <img
+              className="skill-img"
+              src="./icons8-react-native-144.png"
+              alt=""
+            />
           </Animator>
           <Animator animation={batch(Sticky(25, 55), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./icons8-bootstrap-144.png" alt="" />
+            <img
+              className="skill-img"
+              src="./icons8-bootstrap-144.png"
+              alt=""
+            />
           </Animator>
           <Animator animation={batch(Sticky(35, 55), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./icons8-sass-144.png" alt="" />
+            <img className="skill-img" src="./icons8-sass-144.png" alt="" />
           </Animator>
 
           <Animator animation={batch(Sticky(70, 30), Fade(), MoveOut(-300, 0))}>
@@ -118,13 +130,13 @@ function Allpage() {
             </div>
           </Animator>
           <Animator animation={batch(Sticky(65, 40), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./icons8-node-js-144.png" alt="" />
+            <img className="skill-img" src="./icons8-node-js-144.png" alt="" />
           </Animator>
           <Animator animation={batch(Sticky(70, 55), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./Expressjs.png" alt="" />
+            <img className="skill-img" src="./Expressjs.png" alt="" />
           </Animator>
           <Animator animation={batch(Sticky(74, 40), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./icons8-mongodb-144.png" alt="" />
+            <img className="skill-img" src="./icons8-mongodb-144.png" alt="" />
           </Animator>
 
           <Animator animation={batch(Sticky(26, 72), Fade(), MoveOut(-300, 0))}>
@@ -133,7 +145,7 @@ function Allpage() {
             </div>
           </Animator>
           <Animator animation={batch(Sticky(26, 85), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./icons8-figma-144.png" alt="" />
+            <img className="skill-img" src="./icons8-figma-144.png" alt="" />
           </Animator>
 
           <Animator animation={batch(Sticky(70, 72), Fade(), MoveOut(-300, 0))}>
@@ -142,14 +154,14 @@ function Allpage() {
             </div>
           </Animator>
           <Animator animation={batch(Sticky(60, 85), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./icons8-git-144.png" alt="" />
+            <img className="skill-img" src="./icons8-git-144.png" alt="" />
           </Animator>
           <Animator animation={batch(Sticky(70, 85), Fade(), MoveOut(300, 0))}>
-            <img className="skill" src="./Octocat.png" alt="" />
+            <img className="skill-img" src="./Octocat.png" alt="" />
           </Animator>
           <Animator animation={batch(Sticky(80, 85), Fade(), MoveOut(300, 0))}>
             <img
-              className="skill"
+              className="skill-img"
               src="./icons8-postman-is-the-only-complete-api-development-environment-96.png"
               alt=""
             />
