@@ -50,14 +50,9 @@ function Allpage() {
               <h1>About Me</h1>
               <p className="textAbout">
                 &nbsp; &nbsp; &nbsp; &nbsp;Hello! My name is Parinchat
-                Juntaworn. My interest in website development started when I
-                learned at University and did my final project about machine
-                learning that involved writing code. Even though I didn't
-                graduate in computer science but I practice backend and frontend
-                to be a web developer so hard.{" "}
+                Juntaworn. I recently graduated from Thammasat University with a detail-oriented and persistent nature. My interest in website development started when I was studying at the university and worked on my final project, which involved writing code for machine learning. Following that, I joined Generation's Junior Software Developer Bootcamp, where I dedicated myself to becoming a skilled web developer focusing on the backend.{" "}
                 <b>
-                  And now I'm ready to seek a challenging opportunity to work in
-                  a backend developer position.
+                  Now, I am fully prepared to pursue a challenging opportunity in a software developer position.
                 </b>
               </p>
             </div>

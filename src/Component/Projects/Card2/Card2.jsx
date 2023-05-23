@@ -12,25 +12,25 @@ function Card2() {
     <div className="container-card">
       <div className="upper-card">
         <img
-          src="./Screen Shot 2565-08-17 at 04.16.37.png"
+          src="../../../../public/Screenshot 2566-05-23 at 19.08.32.png"
           style={sizeOfPicPro}
           alt=""
         />
         <div className="content-card">
-          <h1>JAMMMING 🎤</h1>
+          <h1>Sai-song program 🎤</h1>
           <p className="desc-project">
-            A React web application that using API Spotify allows users to
-            search songs from the Spotify library and create the playlist that
-            you wish.
+            A simple Javascript web application that 
+            using HTML CSS Javascript to calculate your
+            money: How much money you will pay (with DOM)
           </p>
-          <p className="skill-card">React Spotify API Vercel</p>
+          <p className="skill-card">HTML CSS Javascript DOM</p>
         </div>
       </div>
       <div className="lower-card">
-        <a href="https://github.com/ParinchatJ/Jammming-Codecademy-React">
+        <a href="https://github.com/ParinchatJ/sai-song-program">
           <button className="gh">GitHub </button>
         </a>
-        <a href="https://jammming-codecademy-react.vercel.app/">
+        <a href="sai-song-program.vercel.app">
           <button className="dm">Demo</button>
         </a>
       </div>

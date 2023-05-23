@@ -11,21 +11,22 @@ function Card3() {
   return (
     <div className="container-card">
       <div className="upper-card">
-        <img src="./headcss.png" style={sizeOfPicPro} alt="" />
+        <img src="../../../../public/Screenshot 2566-05-23 at 19.21.55.png" style={sizeOfPicPro} alt="" />
         <div className="content-card">
-          <h1>Head-animation-CSS 🐶</h1>
+          <h1>Simple diary project 🐶</h1>
           <p className="desc-project">
-            {" "}
-            Make the topic more interesting by using only CSS.
+            The Diary web application that is simple app to Create, 
+            Read, Update and Delete (CRUD) your data uses the following 
+            tools Express MongoDB DayJS HandlebarJS
           </p>
-          <p className="skill-card">only CSS</p>
+          <p className="skill-card">Express MongoDB HandlebarJS</p>
         </div>
       </div>
       <div className="lower-card">
-        <a href="https://github.com/ParinchatJ/Head-animation-CSS">
+        <a href="https://github.com/ParinchatJ/simple-diary-project">
           <button className="gh">GitHub</button>
         </a>
-        <a href="https://head-animation-css.vercel.app/">
+        <a href="https://simple-diary-project.vercel.app">
           <button className="dm">Demo</button>
         </a>
       </div>

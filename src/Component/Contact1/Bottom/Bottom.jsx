@@ -14,7 +14,7 @@ function Bottom() {
       </div>
       <div className="bottomtext">
         <a href="https://www.linkedin.com/in/jparinchat/">
-          <p>_ Designed and built by ParinchatJ _</p>
+          <p> &copy; Designed and built by ParinchatJ </p>
         </a>
       </div>
     </section>
