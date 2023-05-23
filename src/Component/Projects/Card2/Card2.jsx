@@ -12,7 +12,7 @@ function Card2() {
     <div className="container-card">
       <div className="upper-card">
         <img
-          src="../../../../public/Screenshot 2566-05-23 at 19.08.32.png"
+          src="./Screenshot 2566-05-23 at 19.08.32.png"
           style={sizeOfPicPro}
           alt=""
         />

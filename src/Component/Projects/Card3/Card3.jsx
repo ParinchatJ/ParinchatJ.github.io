@@ -11,7 +11,7 @@ function Card3() {
   return (
     <div className="container-card">
       <div className="upper-card">
-        <img src="../../../../public/Screenshot 2566-05-23 at 19.21.55.png" style={sizeOfPicPro} alt="" />
+        <img src="./Screenshot 2566-05-23 at 19.21.55.png" style={sizeOfPicPro} alt="" />
         <div className="content-card">
           <h1>Simple diary project 🐶</h1>
           <p className="desc-project">
