@@ -89,25 +89,25 @@ function Allpage() {
               <h1>Testing</h1>
             </div>
           </Animator>
-          <Animator animation={batch(Sticky(15, 45), Fade(), MoveOut(300, 0))}>
+          <Animator animation={batch(Sticky(15, 43), Fade(), MoveOut(300, 0))}>
             <div className="skill-tester">
               <img className="skill-img" src="./icons8-test-96.png" alt="" />
               <p>Test Case</p>
             </div>
           </Animator>
-          <Animator animation={batch(Sticky(25, 45), Fade(), MoveOut(300, 0))}>
+          <Animator animation={batch(Sticky(25, 43), Fade(), MoveOut(300, 0))}>
             <div className="skill-tester">
               <img className="skill-img" src="./icons8-log-64.png" alt="" />
               <p>Log Issue</p>
             </div>
           </Animator>
-          <Animator animation={batch(Sticky(35, 45), Fade(), MoveOut(300, 0))}>
+          <Animator animation={batch(Sticky(35, 43), Fade(), MoveOut(300, 0))}>
             <div className="skill-tester">
               <img className="skill-img" src="./icons8-stories-64.png" alt="" />
               <p>Scenario</p>
             </div>
           </Animator>
-          <Animator animation={batch(Sticky(15, 60), Fade(), MoveOut(300, 0))}>
+          <Animator animation={batch(Sticky(15, 57), Fade(), MoveOut(300, 0))}>
             <div className="skill-tester">
               <img className="skill-img" src="./icons8-genealogy-100.png" alt="" />
               <p>Flowchart</p>
