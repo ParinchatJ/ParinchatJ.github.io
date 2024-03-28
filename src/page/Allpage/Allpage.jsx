@@ -86,7 +86,25 @@ function Allpage() {
         <ScrollPage>
           <Animator animation={batch(Sticky(26, 30), Fade(), MoveOut(-300, 0))}>
             <div className="skill">
-              <h1>Front-end</h1>
+              <h1>Testing</h1>
+            </div>
+          </Animator>
+
+          //! แก้เป็นสกิลเทสตรงนี้ และเปลี่ยนหัวสกิลทำเวป
+          <Animator animation={batch(Sticky(15, 40), Fade(), MoveOut(300, 0))}>
+            Basic Manual Testing
+            - Create Test case
+            - Log Issue
+            - Scenario
+            - Test report 
+            - Flowchart
+            - Basic Python
+          </Animator>
+          
+
+          <Animator animation={batch(Sticky(70, 30), Fade(), MoveOut(-300, 0))}>
+            <div className="skill">
+              <h1>Software Developer</h1>
             </div>
           </Animator>
           <Animator animation={batch(Sticky(15, 40), Fade(), MoveOut(300, 0))}>
@@ -115,12 +133,6 @@ function Allpage() {
               src="./icons8-bootstrap-144.png"
               alt=""
             />
-          </Animator>
-
-          <Animator animation={batch(Sticky(70, 30), Fade(), MoveOut(-300, 0))}>
-            <div className="skill">
-              <h1>Back-end</h1>
-            </div>
           </Animator>
           <Animator animation={batch(Sticky(65, 40), Fade(), MoveOut(300, 0))}>
             <img className="skill-img" src="./icons8-node-js-144.png" alt="" />
