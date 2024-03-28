@@ -13,8 +13,6 @@ function NameInHome() {
           1000,
           "Pojo🧸",
           1000,
-          "Software Developer🌱",
-          1000,
           "Cat Lover🐈",
           1000,
         ]}

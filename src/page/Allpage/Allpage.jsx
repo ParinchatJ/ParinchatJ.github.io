@@ -50,9 +50,10 @@ function Allpage() {
               <h1>About Me</h1>
               <p className="textAbout">
                 &nbsp; &nbsp; &nbsp; &nbsp;Hello! My name is Parinchat
-                Juntaworn. I recently graduated from Thammasat University with a detail-oriented and persistent nature. My interest in website development started when I was studying at the university and worked on my final project, which involved writing code for machine learning. Following that, I joined Generation's Junior Software Developer Bootcamp, where I dedicated myself to becoming a skilled web developer focusing on the backend.{" "}
+                Juntaworn. I recently graduated from Thammasat University with a passion for detail-oriented work and a persistent nature.
+                Conducted machine learning for my final project during studies. Further developed skills in Generation's Junior Software Developer Bootcamp. Skilled in basic manual testing, creating test cases, logging issues, and scenarios. {" "}
                 <b>
-                  Now, I am fully prepared to pursue a challenging opportunity in a software developer position.
+                  Seeking to contribute and grow in the field of software testing (manual and automation)
                 </b>
               </p>
             </div>
@@ -114,9 +115,6 @@ function Allpage() {
               src="./icons8-bootstrap-144.png"
               alt=""
             />
-          </Animator>
-          <Animator animation={batch(Sticky(35, 55), Fade(), MoveOut(300, 0))}>
-            <img className="skill-img" src="./icons8-sass-144.png" alt="" />
           </Animator>
 
           <Animator animation={batch(Sticky(70, 30), Fade(), MoveOut(-300, 0))}>
