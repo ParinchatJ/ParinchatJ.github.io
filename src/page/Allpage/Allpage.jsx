@@ -103,7 +103,36 @@ function Allpage() {
                   - Basic Python
                 </div>
             </div> */}
-
+          </Animator>
+          <Animator animation={batch(Sticky(15, 40), Fade(), MoveOut(300, 0))}>
+            <div>
+              <img className="skill-img" src="./icons8-test-96.png" alt="" /><br />
+              <p>Create Test Case</p>
+            </div>
+          </Animator>
+          <Animator animation={batch(Sticky(25, 40), Fade(), MoveOut(300, 0))}>
+            <div>
+              <img className="skill-img" src="./icons8-log-64.png" alt="" /><br />
+              <p>Log Issue</p>
+            </div>
+          </Animator>
+          <Animator animation={batch(Sticky(35, 40), Fade(), MoveOut(300, 0))}>
+            <div>
+              <img className="skill-img" src="./icons8-stories-64.png" alt="" /><br />
+              <p>Scenario</p>
+            </div>
+          </Animator>
+          <Animator animation={batch(Sticky(15, 55), Fade(), MoveOut(300, 0))}>
+            <div>
+              <img className="skill-img" src="./icons8-genealogy-100.png" alt="" /><br />
+              <p>Flowchart</p>
+            </div>
+          </Animator>
+          <Animator animation={batch(Sticky(25, 55), Fade(), MoveOut(300, 0))}>
+            <div>
+              <img className="skill-img" src="./icons8-python-96.png" alt="" /><br />
+              <p>Basic Python</p>
+            </div>
           </Animator>
           
 
