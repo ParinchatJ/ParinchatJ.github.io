@@ -139,17 +139,17 @@ function Allpage() {
           <Animator animation={batch(Sticky(80, 55), Fade(), MoveOut(300, 0))}>
             <img className="skill-img" src="./Expressjs.png" alt="" />
           </Animator>
-          {/* <Animator animation={batch(Sticky(70, 55), Fade(), MoveOut(300, 0))}>
-            <img className="skill-img" src="./icons8-mongodb-144.png" alt="" />
-          </Animator> */}
 
           <Animator animation={batch(Sticky(26, 72), Fade(), MoveOut(-300, 0))}>
             <div className="skill">
-              <h1>Design Tools</h1>
+              <h1>Database</h1>
             </div>
           </Animator>
-          <Animator animation={batch(Sticky(26, 85), Fade(), MoveOut(300, 0))}>
-            <img className="skill-img" src="./icons8-figma-144.png" alt="" />
+          <Animator animation={batch(Sticky(20, 85), Fade(), MoveOut(300, 0))}>
+            <img className="skill-img" src="./icons8-mysql-logo-144.png" alt="" />
+          </Animator>
+          <Animator animation={batch(Sticky(30, 85), Fade(), MoveOut(300, 0))}>
+            <img className="skill-img" src="./icons8-mongodb-144.png" alt="" />
           </Animator>
 
           <Animator animation={batch(Sticky(70, 72), Fade(), MoveOut(-300, 0))}>
