@@ -129,6 +129,12 @@
 
 /* skill page */
 
+.skill-tester {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .skill-tester p {
   font-family: "PT Mono", monospace;
   align-items: center;
