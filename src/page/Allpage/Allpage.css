@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-.p {
-  font-family: "PT Mono", monospace;
-}
-
 /* home page  */
 
 .bg {
@@ -133,7 +129,8 @@
 
 /* skill page */
 
-.skill-tester {
+.skill-tester p {
+  font-family: "PT Mono", monospace;
   align-items: center;
 }
 
