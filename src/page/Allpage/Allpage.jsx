@@ -113,42 +113,35 @@ function Allpage() {
             </div>
           </Animator>
           
-          <Animator animation={batch(Sticky(55, 40), Fade(), MoveOut(300, 0))}>
+          <Animator animation={batch(Sticky(60, 40), Fade(), MoveOut(300, 0))}>
             <img className="skill-img" src="./icons8-html-5-96.png" alt="" />
           </Animator>
-          <Animator animation={batch(Sticky(60, 40), Fade(), MoveOut(300, 0))}>
+          <Animator animation={batch(Sticky(70, 40), Fade(), MoveOut(300, 0))}>
             <img className="skill-img" src="./icons8-css3-96.png" alt="" />
           </Animator>
-          <Animator animation={batch(Sticky(65, 40), Fade(), MoveOut(300, 0))}>
+          <Animator animation={batch(Sticky(80, 40), Fade(), MoveOut(300, 0))}>
             <img
               className="skill-img"
               src="./icons8-javascript-144.png"
               alt=""
             />
           </Animator>
-          <Animator animation={batch(Sticky(70, 40), Fade(), MoveOut(300, 0))}>
+          <Animator animation={batch(Sticky(60, 55), Fade(), MoveOut(300, 0))}>
             <img
               className="skill-img"
               src="./icons8-react-native-144.png"
               alt=""
             />
           </Animator>
-          <Animator animation={batch(Sticky(55, 55), Fade(), MoveOut(300, 0))}>
-            <img
-              className="skill-img"
-              src="./icons8-bootstrap-144.png"
-              alt=""
-            />
-          </Animator>
-          <Animator animation={batch(Sticky(60, 55), Fade(), MoveOut(300, 0))}>
+          <Animator animation={batch(Sticky(70, 55), Fade(), MoveOut(300, 0))}>
             <img className="skill-img" src="./icons8-node-js-144.png" alt="" />
           </Animator>
-          <Animator animation={batch(Sticky(65, 55), Fade(), MoveOut(300, 0))}>
+          <Animator animation={batch(Sticky(80, 55), Fade(), MoveOut(300, 0))}>
             <img className="skill-img" src="./Expressjs.png" alt="" />
           </Animator>
-          <Animator animation={batch(Sticky(70, 55), Fade(), MoveOut(300, 0))}>
+          {/* <Animator animation={batch(Sticky(70, 55), Fade(), MoveOut(300, 0))}>
             <img className="skill-img" src="./icons8-mongodb-144.png" alt="" />
-          </Animator>
+          </Animator> */}
 
           <Animator animation={batch(Sticky(26, 72), Fade(), MoveOut(-300, 0))}>
             <div className="skill">
