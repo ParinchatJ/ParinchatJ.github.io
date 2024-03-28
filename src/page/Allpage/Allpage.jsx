@@ -90,15 +90,19 @@ function Allpage() {
             </div>
           </Animator>
 
-          //! แก้เป็นสกิลเทสตรงนี้ และเปลี่ยนหัวสกิลทำเวป
+
           <Animator animation={batch(Sticky(15, 40), Fade(), MoveOut(300, 0))}>
-            Basic Manual Testing
-            - Create Test case
-            - Log Issue
-            - Scenario
-            - Test report 
-            - Flowchart
-            - Basic Python
+            <div>
+              <h3>Basic Manual Testing</h3>  <br />
+                <div>
+                  - Create Test case <br />
+                  - Log Issue<br />
+                  - Scenario<br />
+                  - Test report <br />
+                  - Flowchart<br />
+                  - Basic Python
+                </div>
+            </div>
           </Animator>
           
 
@@ -107,6 +111,7 @@ function Allpage() {
               <h1>Software Developer</h1>
             </div>
           </Animator>
+          
           <Animator animation={batch(Sticky(15, 40), Fade(), MoveOut(300, 0))}>
             <img className="skill-img" src="./icons8-html-5-96.png" alt="" />
           </Animator>
